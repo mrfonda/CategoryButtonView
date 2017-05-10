@@ -10,6 +10,7 @@
 		76A49EB91EC3448000382CC3 /* CategoryButtonView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A49EAF1EC3448000382CC3 /* CategoryButtonView.framework */; };
 		76A49EBE1EC3448000382CC3 /* CategoryButtonViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A49EBD1EC3448000382CC3 /* CategoryButtonViewTests.swift */; };
 		76A49EC01EC3448000382CC3 /* CategoryButtonView.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A49EB21EC3448000382CC3 /* CategoryButtonView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76A49ECD1EC3522900382CC3 /* CategoryButtonView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 76A49ECC1EC3522900382CC3 /* CategoryButtonView.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		76A49EB81EC3448000382CC3 /* CategoryButtonViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CategoryButtonViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76A49EBD1EC3448000382CC3 /* CategoryButtonViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryButtonViewTests.swift; sourceTree = "<group>"; };
 		76A49EBF1EC3448000382CC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76A49ECC1EC3522900382CC3 /* CategoryButtonView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CategoryButtonView.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		76A49EA51EC3448000382CC3 = {
 			isa = PBXGroup;
 			children = (
+				76A49ECC1EC3522900382CC3 /* CategoryButtonView.podspec */,
 				76A49EB11EC3448000382CC3 /* CategoryButtonView */,
 				76A49EBC1EC3448000382CC3 /* CategoryButtonViewTests */,
 				76A49EB01EC3448000382CC3 /* Products */,
@@ -181,6 +184,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76A49ECD1EC3522900382CC3 /* CategoryButtonView.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +406,7 @@
 				76A49EC51EC3448000382CC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76A49EC61EC3448000382CC3 /* Build configuration list for PBXNativeTarget "CategoryButtonViewTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +415,7 @@
 				76A49EC81EC3448000382CC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
