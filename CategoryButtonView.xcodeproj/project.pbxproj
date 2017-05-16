@@ -14,6 +14,8 @@
 		76A49ED11EC3817B00382CC3 /* CategoryButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A49ECE1EC3817B00382CC3 /* CategoryButtonView.swift */; };
 		76A49ED21EC3817B00382CC3 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A49ECF1EC3817B00382CC3 /* CategoryView.swift */; };
 		76A49ED31EC3817B00382CC3 /* QCMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A49ED01EC3817B00382CC3 /* QCMethod.swift */; };
+		76A49ED51EC387D500382CC3 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 76A49ED41EC387D500382CC3 /* Cartfile */; };
+		76A49ED71EC387E600382CC3 /* Cartfile.private in Resources */ = {isa = PBXBuildFile; fileRef = 76A49ED61EC387E600382CC3 /* Cartfile.private */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,8 @@
 		76A49ECE1EC3817B00382CC3 /* CategoryButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryButtonView.swift; sourceTree = "<group>"; };
 		76A49ECF1EC3817B00382CC3 /* CategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		76A49ED01EC3817B00382CC3 /* QCMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCMethod.swift; sourceTree = "<group>"; };
+		76A49ED41EC387D500382CC3 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		76A49ED61EC387E600382CC3 /* Cartfile.private */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile.private; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 		76A49EA51EC3448000382CC3 = {
 			isa = PBXGroup;
 			children = (
+				76A49ED61EC387E600382CC3 /* Cartfile.private */,
+				76A49ED41EC387D500382CC3 /* Cartfile */,
 				76A49ECC1EC3522900382CC3 /* CategoryButtonView.podspec */,
 				76A49EB11EC3448000382CC3 /* CategoryButtonView */,
 				76A49EBC1EC3448000382CC3 /* CategoryButtonViewTests */,
@@ -194,6 +200,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76A49ED51EC387D500382CC3 /* Cartfile in Resources */,
+				76A49ED71EC387E600382CC3 /* Cartfile.private in Resources */,
 				76A49ECD1EC3522900382CC3 /* CategoryButtonView.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
